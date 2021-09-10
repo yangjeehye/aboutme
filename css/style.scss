@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@mixin txt {
+  color: #f0d8e6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@mixin point {
+  position: relative;
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+@mixin tit {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  font-size: 40px;
+}
+
+body {
+  #wrap {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR';
+
+    > header {
+      width: 100%;
+      height: 600px;
+      background-image: url(./../images/bg-1.png);
+      background-size: cover;
+
+      > .visual {
+        @include point;
+
+        > .logo {
+          position: absolute;
+          left: 640px;
+          top: 232px;
+          width: 174px;
+          height: 93px;
+          background-image: url(./../images/logo.png);
+          background-size: cover;
+          text-indent: -9999px;
+          z-index: 100;
+        }
+
+        > .h-box {
+          position: absolute;
+          left: 50%;
+          top: 96px;
+          width: 298px;
+          height: 408px;
+          margin-left: -149px;
+          background-image: url(./../images/box.png);
+          text-indent: -9999px;
+        }
+
+        > .deco {
+          position: absolute;
+          left: 80px;
+          top: 80px;
+          width: 95px;
+          height: 23px;
+          background-image: url(./../images/deco.png);
+          text-indent: -9999px;
+        }
+
+        > .txt1 {
+          position: absolute;
+          right: 80px;
+          top: 80px;
+          @include txt;
+        }
+
+        > .txt2 {
+          position: absolute;
+          left: 80px;
+          bottom: 80px;
+          @include txt;
+        }
+
+        > .txt3 {
+          position: absolute;
+          right: 80px;
+          bottom: 80px;
+          @include txt;
+        }
+
+        > .line {
+          position: absolute;
+          right: 80px;
+          top: 131px;
+          height: 337px;
+          border-left: 1px solid #f0d8e6;
+          text-indent: -9999px;
+        }
+      }
+    } //end of header
+
+    > .motto {
+      width: 100%;
+      height: 600px;
+      background-color: #fff;
+
+      > .motto_p {
+        @include point;
+
+        > .m-tit {
+          @include tit;
+          color: #ccbbe0;
+        }
+
+        > .box2 {
+          position: absolute;
+          left: 50%;
+          top: 80px;
+          width: 286px;
+          height: 286px;
+          margin-left: -143px;
+          background-image: url(./../images/box-2.png);
+          text-indent: -9999px;
+        }
+
+        > .name {
+          position: absolute;
+          left: 80px;
+          bottom: 80px;
+          @include txt;
+        }
+
+        > .name2 {
+          position: absolute;
+          left: 480px;
+          top: 150px;
+          color: #ccbbe0;
+          font-size: 22px;
+          font-weight: 700;
+          transform: rotate(90deg);
+        }
+
+        > .m-txt1 {
+          position: absolute;
+          left: 568px;
+          top: 300px;
+          color: #454249;
+          font-size: 22px;
+          font-weight: 700;
+        }
+
+        > .m-txt2 {
+          position: absolute;
+          left: 568px;
+          bottom: 80px;
+          color: #65616b;
+          font-size: 16px;
+        }
+      }
+    } // end of motto
+
+    > .interested {
+      width: 100%;
+      height: 600px;
+      align-items: center;
+      background-image: url(./../images/w-bg.png);
+      background-size: cover;
+      background-position: center center;
+
+      > .int {
+        @include point;
+
+        > .tit {
+          @include tit;
+          color: #ebe9ff;
+        }
+
+        > .box3 {
+          position: absolute;
+          left: 417px;
+          top: 296px;
+          width: 224px;
+          height: 224px;
+          background-image: url(./../images/w-bg-2.png);
+          text-indent: -9999px;
+        }
+
+        > .i-txt1 {
+          position: absolute;
+          left: 568px;
+          top: 140px;
+          color: #454249;
+          font-size: 22px;
+          font-weight: 700;
+        }
+
+        > .i-txt2 {
+          position: absolute;
+          left: 568px;
+          top: 222px;
+          color: #65616b;
+          font-size: 16px;
+          line-height: 25px;
+        }
+
+        > .i-deco {
+          position: absolute;
+          right: 80px;
+          bottom: 80px;
+          width: 95px;
+          height: 23px;
+          background-image: url(./../images/w-deco.png);
+          text-indent: -9999px;
+        }
+      }
+    } //end of interested
+
+    > .design {
+      width: 100%;
+      height: 600px;
+      background-color: #fff;
+
+      > .de {
+        @include point;
+
+        > .tit {
+          @include tit;
+          color: #ccbbe0;
+        }
+
+        > .d-line {
+          position: absolute;
+          left: 80px;
+          top: 229px;
+          height: 260px;
+          border-left: 1px solid #f0d8e6;
+          text-indent: -9999px;
+        }
+
+        > .txt {
+          position: absolute;
+          left: 80px;
+          bottom: 80px;
+          @include txt;
+        }
+
+        > .d-txt1 {
+          position: absolute;
+          left: 568px;
+          top: 288px;
+          color: #454249;
+          font-size: 22px;
+          font-weight: 700;
+        }
+
+        > .d-txt2 {
+          position: absolute;
+          left: 568px;
+          bottom: 80px;
+          color: #65616b;
+          font-size: 16px;
+          line-height: 25px;
+        }
+      }
+    } // end of design
+
+    > footer {
+      width: 100%;
+      height: 426px;
+      background-color: #ddc0cc;
+
+      > .ft {
+        position: relative;
+        width: 1280px;
+        height: 426px;
+        margin: 0 auto;
+
+        > .deco-f {
+          display: block;
+          position: absolute;
+          right: 80px;
+          top: 80px;
+          width: 95px;
+          height: 23px;
+          background-image: url(./../images/w-deco.png);
+          text-indent: -9999px;
+        }
+
+        > p {
+          position: absolute;
+          left: 50%;
+          top: 193px;
+          color: #9b7988;
+          font-size: 17px;
+          line-height: 22px;
+          text-align: center;
+          margin-left: -170px;
+        }
+
+        > h2 {
+          position: absolute;
+          right: 80px;
+          bottom: 69px;
+          width: 71px;
+          height: 38px;
+          background-image: url(./../images/logo.png);
+          background-size: cover;
+          text-indent: -9999px;
+        }
+
+        > address {
+          position: absolute;
+          left: 50%;
+          bottom: 84px;
+          color: #f0d8e6;
+          font-size: 15px;
+          margin-left: -95px;
+        }
+      }
+    } //end of footer
+  }
+}

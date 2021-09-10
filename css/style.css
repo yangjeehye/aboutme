@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+body #wrap {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR';
+}
+
+body #wrap > header {
+  width: 100%;
+  height: 600px;
+  background-image: url(./../images/bg-1.png);
+  background-size: cover;
+}
+
+body #wrap > header > .visual {
+  position: relative;
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+body #wrap > header > .visual > .logo {
+  position: absolute;
+  left: 640px;
+  top: 232px;
+  width: 174px;
+  height: 93px;
+  background-image: url(./../images/logo.png);
+  background-size: cover;
+  text-indent: -9999px;
+  z-index: 100;
+}
+
+body #wrap > header > .visual > .h-box {
+  position: absolute;
+  left: 50%;
+  top: 96px;
+  width: 298px;
+  height: 408px;
+  margin-left: -149px;
+  background-image: url(./../images/box.png);
+  text-indent: -9999px;
+}
+
+body #wrap > header > .visual > .deco {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  width: 95px;
+  height: 23px;
+  background-image: url(./../images/deco.png);
+  text-indent: -9999px;
+}
+
+body #wrap > header > .visual > .txt1 {
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  color: #f0d8e6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body #wrap > header > .visual > .txt2 {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  color: #f0d8e6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body #wrap > header > .visual > .txt3 {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  color: #f0d8e6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body #wrap > header > .visual > .line {
+  position: absolute;
+  right: 80px;
+  top: 131px;
+  height: 337px;
+  border-left: 1px solid #f0d8e6;
+  text-indent: -9999px;
+}
+
+body #wrap > .motto {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+
+body #wrap > .motto > .motto_p {
+  position: relative;
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+body #wrap > .motto > .motto_p > .m-tit {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  font-size: 40px;
+  color: #ccbbe0;
+}
+
+body #wrap > .motto > .motto_p > .box2 {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  width: 286px;
+  height: 286px;
+  margin-left: -143px;
+  background-image: url(./../images/box-2.png);
+  text-indent: -9999px;
+}
+
+body #wrap > .motto > .motto_p > .name {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  color: #f0d8e6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body #wrap > .motto > .motto_p > .name2 {
+  position: absolute;
+  left: 480px;
+  top: 150px;
+  color: #ccbbe0;
+  font-size: 22px;
+  font-weight: 700;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body #wrap > .motto > .motto_p > .m-txt1 {
+  position: absolute;
+  left: 568px;
+  top: 300px;
+  color: #454249;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+body #wrap > .motto > .motto_p > .m-txt2 {
+  position: absolute;
+  left: 568px;
+  bottom: 80px;
+  color: #65616b;
+  font-size: 16px;
+}
+
+body #wrap > .interested {
+  width: 100%;
+  height: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./../images/w-bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+body #wrap > .interested > .int {
+  position: relative;
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+body #wrap > .interested > .int > .tit {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  font-size: 40px;
+  color: #ebe9ff;
+}
+
+body #wrap > .interested > .int > .box3 {
+  position: absolute;
+  left: 417px;
+  top: 296px;
+  width: 224px;
+  height: 224px;
+  background-image: url(./../images/w-bg-2.png);
+  text-indent: -9999px;
+}
+
+body #wrap > .interested > .int > .i-txt1 {
+  position: absolute;
+  left: 568px;
+  top: 140px;
+  color: #454249;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+body #wrap > .interested > .int > .i-txt2 {
+  position: absolute;
+  left: 568px;
+  top: 222px;
+  color: #65616b;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+body #wrap > .interested > .int > .i-deco {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  width: 95px;
+  height: 23px;
+  background-image: url(./../images/w-deco.png);
+  text-indent: -9999px;
+}
+
+body #wrap > .design {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+
+body #wrap > .design > .de {
+  position: relative;
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+body #wrap > .design > .de > .tit {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  font-size: 40px;
+  color: #ccbbe0;
+}
+
+body #wrap > .design > .de > .d-line {
+  position: absolute;
+  left: 80px;
+  top: 229px;
+  height: 260px;
+  border-left: 1px solid #f0d8e6;
+  text-indent: -9999px;
+}
+
+body #wrap > .design > .de > .txt {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  color: #f0d8e6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body #wrap > .design > .de > .d-txt1 {
+  position: absolute;
+  left: 568px;
+  top: 288px;
+  color: #454249;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+body #wrap > .design > .de > .d-txt2 {
+  position: absolute;
+  left: 568px;
+  bottom: 80px;
+  color: #65616b;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+body #wrap > footer {
+  width: 100%;
+  height: 426px;
+  background-color: #ddc0cc;
+}
+
+body #wrap > footer > .ft {
+  position: relative;
+  width: 1280px;
+  height: 426px;
+  margin: 0 auto;
+}
+
+body #wrap > footer > .ft > .deco-f {
+  display: block;
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  width: 95px;
+  height: 23px;
+  background-image: url(./../images/w-deco.png);
+  text-indent: -9999px;
+}
+
+body #wrap > footer > .ft > p {
+  position: absolute;
+  left: 50%;
+  top: 193px;
+  color: #9b7988;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  margin-left: -170px;
+}
+
+body #wrap > footer > .ft > h2 {
+  position: absolute;
+  right: 80px;
+  bottom: 69px;
+  width: 71px;
+  height: 38px;
+  background-image: url(./../images/logo.png);
+  background-size: cover;
+  text-indent: -9999px;
+}
+
+body #wrap > footer > .ft > address {
+  position: absolute;
+  left: 50%;
+  bottom: 84px;
+  color: #f0d8e6;
+  font-size: 15px;
+  margin-left: -95px;
+}
+/*# sourceMappingURL=style.css.map */
